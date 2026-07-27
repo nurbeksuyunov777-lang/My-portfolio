@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(kk.jpg);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    height: 100%;
+    padding-bottom: 50px;
+}
+.navbar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #D68F3E;
+}
+
+.navbar ul {
+    display: flex;
+}
+.navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+    padding: 12px;
+    border-radius: 15px;
+    
+    border: 3px solid black;
+}
+.home {
+    background-color:#BFD6AD;
+}
+.a {
+    background-color: white;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.navbar ul li:hover a {
+    color: whitesmoke;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+.start {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.start h1 {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.start p {
+    width: 90%;
+    font-family: sans-serif;
+    text-align: justify;
+    margin: 0 15px;
+}
+
+
+
+
+.middle {
+    margin-top: 50px;
+    background-color: #0B1120;
+    padding-bottom: 50px;
+}
+
+.middle h3 {
+    text-align: center;
+    padding-top: 15px;
+    background-color: aquamarine;
+}
+.middle ul  {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.middle ul li {
+    background-color: #D6C272;
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    list-style: none;
+}
+.rasmlar {
+    margin-top: 15px;
+    align-items: center;
+    width: 90%;
+}
+
+.matn {
+    margin:  0 110px;
+    display: flex;
+    width: 80%;
+}
+.matn p {
+    width: 25%;
+    background-color: #9FD663;
+    margin: 10px;
+    padding: 15px;
+    text-align: justify;
+    font-family: sans-serif;
+    border: 2px solid #D67A3E;
+}
+
+
+
+.dream {
+    display: flex;
+    width: 80%;
+    margin:0 auto ;   
+    padding: 25px;
+    border: 2px solid salmon;
+    background-color: #76D6D0;
+}
+
+.dream p {
+    width: 65;
+    text-align: justify;
+    margin: 5px;
+    padding: 15px;
+}
+.dream img {
+    width: 35%;
+    margin: 0 5px;
+    border: 2px solid black;
+}
+.dream0 {
+    margin-top: 50px;
+    
+
+}
+.dream0 h1 {
+    margin: 10px;
+    text-align: center;
+    background-color: #D6C12B;
+}
+
+
+
+
+
+
+.end {
+    margin-top: 100px;
+    text-align: center;
+    padding: 15px;
+    background-color: #D67923;
+}
+
+
+
+
+
+
+
+
+
+

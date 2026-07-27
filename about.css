@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(about.jpg);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    height: 100%;
+    padding-bottom: 50px;
+}
+.navbar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #D68F3E;
+}
+
+.navbar ul {
+    display: flex;
+}
+.navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+    padding: 12px;
+    border-radius: 15px;
+    
+    border: 3px solid black;
+}
+.home {
+    background-color: #BFD6AD;
+}
+.a {
+    background-color: white;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.navbar ul li:hover a {
+    color: whitesmoke;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.start {
+    display: flex;
+}
+.rasm {
+    margin: 50px 20PX;
+    width: 40%;
+    
+}
+.rasm img {
+    border: 2px solid black;
+    border-radius: 100%;
+    height: 350PX;
+    width: 90%;
+}
+.malumotlar {
+    width: 60%;
+}
+.malumotlar {}
+
+.h1 {
+    margin-top: 50px;
+}
+
+
+.double {
+    margin: 15px 0;
+    display: flex;
+}
+.hobby {
+    background-color: white;
+    padding: 15px;
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.maqsad {
+    background-color: white;
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.double2 {
+    margin: 15px 0;
+    display: flex;
+}
